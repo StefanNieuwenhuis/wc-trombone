@@ -1,7 +1,7 @@
 {
   "name": "wc-trombone",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Trombone Web Component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "es2015": "dist/esm/index.mjs",
@@ -10,6 +10,10 @@
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
   "unpkg": "dist/wc-trombone/wc-trombone.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StefanNieuwenhuis/wc-trombone.git"
+  },
   "files": [
     "dist/",
     "loader/"
@@ -17,6 +21,7 @@
   "scripts": {
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
+    "publish": "yarn build && npm publish",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },

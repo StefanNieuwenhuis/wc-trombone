@@ -107,7 +107,7 @@ export class WcTromboneComponent {
       element
     };
 
-    element.src = './assets/note.gif';
+    element.src = './collection/assets/note.gif';
     element.className = 'note';
     element.style.transform = 'rotate(' + (Math.random() * 30 - 15) + 'deg)';
     this.$outer.appendChild(element);
@@ -133,9 +133,9 @@ export class WcTromboneComponent {
   render() {
     return <Host>
       <div id="outer">
-        <img id="top" src="./assets/top.png" />
-        <img id="expander" src="./assets/expander.png" />
-        <img id="slide" src="./assets/slide.png" />
+        <img id="top" src="./collection/assets/top.png" />
+        <img id="expander" src="./collection/assets/expander.png" />
+        <img id="slide" src="./collection/assets/slide.png" />
       </div>
       <div id="scale">
         <span class="mark">A</span>

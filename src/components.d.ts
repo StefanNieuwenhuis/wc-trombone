@@ -9,27 +9,27 @@ import { HTMLStencilElement, JSXBase } from '@stencil/core/internal';
 
 
 export namespace Components {
-  interface MyComponent {}
+  interface WcTrombone {}
 }
 
 declare global {
 
 
-  interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {}
-  var HTMLMyComponentElement: {
-    prototype: HTMLMyComponentElement;
-    new (): HTMLMyComponentElement;
+  interface HTMLWcTromboneElement extends Components.WcTrombone, HTMLStencilElement {}
+  var HTMLWcTromboneElement: {
+    prototype: HTMLWcTromboneElement;
+    new (): HTMLWcTromboneElement;
   };
   interface HTMLElementTagNameMap {
-    'my-component': HTMLMyComponentElement;
+    'wc-trombone': HTMLWcTromboneElement;
   }
 }
 
 declare namespace LocalJSX {
-  interface MyComponent extends JSXBase.HTMLAttributes<HTMLMyComponentElement> {}
+  interface WcTrombone extends JSXBase.HTMLAttributes<HTMLWcTromboneElement> {}
 
   interface IntrinsicElements {
-    'my-component': MyComponent;
+    'wc-trombone': WcTrombone;
   }
 }
 

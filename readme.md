@@ -42,6 +42,11 @@ After installing the dependency, just add the following tag in your `html`:
 <wc-trombone></wc-trombone>
 ```
 
+Resize the window to make music!
+
+## Showcase
+
+
 ## Credits
 A HUGE thanks to [Matthew Rayfield](https://twitter.com/MatthewRayfield), who came up with the idea of a popup trombone and who allowed me to turn his idea into a Web Component.
 

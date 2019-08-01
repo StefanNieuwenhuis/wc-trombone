@@ -5,7 +5,7 @@ But not this one! Its sound is produced by resizing the window of your browser o
 
 By [Stefan Nieuwenhuis](https://twitter.com/stefannhs)
 
-[![npm (tag)](https://img.shields.io/npm/v/wc-trombone/latest)
+![npm (tag)](https://img.shields.io/npm/v/wc-trombone/latest?color=blue)
 ![GitHub All Releases](https://img.shields.io/github/downloads/StefanNieuwenhuis/wc-trombone/total)
 
 ## Goals

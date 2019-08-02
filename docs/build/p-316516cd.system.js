@@ -1,1 +1,0 @@
-System.register(["./p-b6e2f1dc.system.js"],function(){"use strict";var e,t;return{setters:[function(s){e=s.p;t=s.b}],execute:function(){e().then(function(e){return t([["p-mesmi7ac.system",[[1,"wc-trombone",null,[[4,"click","onclick"],[9,"resize","onResize"]]]]]],{resourcesUrl:e})})}}});

@@ -38,10 +38,7 @@
 }
 
 #scale {
-    position: absolute;
-    bottom: 5px;
-    left: 100px;
-    margin-left: 180px;
+    margin-left: 25px 0 180px 0;
     white-space: nowrap;
     font-size: 0px;
 }

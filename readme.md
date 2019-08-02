@@ -14,22 +14,28 @@ The idea behind this Web Component is to learn more about the [Web Audio API](ht
 This Web Component is built with [StencilJs](https://stenciljs.com).
 
 ## Installation 
-UNPKG:
+Script tag (with unpkg):
+Put the following tag in the `<head>` of your `index.html` and you can use the element anywhere in your application:
 
 ```js
 <script src='https://unpkg.com/wc-trombone@latest/dist/wc-trombone.js'></script>
 ```
 
-NPM:
+Node Modules (npm or yarn):
+Add the `wc-components` as dependency to `node_modules` via npm or yarn:
 
 ```bash
+# add dependency with npm:
 $ npm install wc-trombone
+
+# or with yarn:
+$ yarn add wc-trombone
 ```
 
-Yarn: 
+Put the following tag in the `<head>` of your `index.html` and you can use the element anywhere in your application: 
 
-```bash
-$ yarn add wc-trombone
+```js
+<script src='node_modules/wc-trombone/dist/wc-trombone.js'></script>
 ```
 
 ## Framework integration

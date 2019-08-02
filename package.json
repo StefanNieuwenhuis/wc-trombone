@@ -22,7 +22,8 @@
     "build": "stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
-    "test.watch": "stencil test --spec --e2e --watchAll"
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "docs:generate": "yarn build && cp -r ./www  ./docs"
   },
   "devDependencies": {
     "@stencil/core": "^1.0.7"

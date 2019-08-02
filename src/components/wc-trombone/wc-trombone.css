@@ -1,11 +1,10 @@
 :host {
     position: relative;
-    background: var(--background);
-    background: url('./assets/bg.gif') #d0f6cc;
+    background: #d0f6cc;
     background-size: 100px;
     overflow: hidden;
     height: 100%;
-    font-family: 'ABeeZee', sans-serif;
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 

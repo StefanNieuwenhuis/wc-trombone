@@ -6,7 +6,7 @@ But not this one! Its sound is produced by resizing the window of your browser o
 By [Stefan Nieuwenhuis](https://twitter.com/stefannhs)
 
 ![npm (tag)](https://img.shields.io/npm/v/wc-trombone/latest?color=blue)
-![GitHub All Releases](https://img.shields.io/github/downloads/StefanNieuwenhuis/wc-trombone/total)
+![npm](https://img.shields.io/npm/dt/wc-trombone)
 
 ## Goals
 The idea behind this Web Component is to learn more about the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) in a fun way and to bring Web Components to a wider audience. 
